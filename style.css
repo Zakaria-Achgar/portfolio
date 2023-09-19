@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #141414;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: auto;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+     z-index: 100;
+}
+.nav{
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    padding-top: 5px;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.logo span{
+    color: #abf129;
+    font-size: 40px;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+.menu{
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 0px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    font-size: 20px;
+}
+.menu a:hover{
+    color: #abf129;
+    border-bottom: 2px #abf129 solid;
+}
+
+.btn-hire-me button{
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border: solid 1px #fff;
+    border-radius: 50px;    
+}
+.btn-hire-me button:hover{
+    color: #141414;
+    background-color: #abf129;
+    transition: 0.5s;
+}
+.full-section{
+    display: flex;
+}
+.hero-section{
+    padding-top: 100px;
+    padding-left: 100px;
+     
+}
+.texte h1{
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+}
+.texte .bx{
+    border: solid 1px;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+}
+.white-dot{
+    font-size: 100px;
+}
+.green-dot{
+    color: #abf129;
+    font-size: 100px;
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+.first-btn button{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    background-color: #abf129;
+    border-radius: 50px;
+}
+.first-btn button:hover{
+    background-color: #659707;
+    transition: 0.5s;
+}
+.last-btn button{
+    width: 200px;
+    height: 50px;
+    margin-right: auto ;
+    padding: 5px;
+    color: #fff;
+    border: solid 1px;
+    font-size: 20px;
+    border-color: #fff;
+    border-radius: 50px;
+    background-color: transparent;
+    font-style: italic;
+}
+.last-btn button:hover{
+    background-color: #659707;
+    border: none;
+}
+.last-btn button i{
+    padding-left: 5px; 
+    background-color: transparent;   
+}
+.icons{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    gap: 10px;
+}
+.icons .bxl-linkedin-square:hover{
+    color: #abf129;
+}
+.icons .bxl-github:hover{
+    color:#abf129;
+}
+.illustration img{
+    width: 650px;
+    height: auto;
+    display: flex;
+}
+.about-section{
+    padding-left: 100px;
+}
+.title span{
+    color: #abf129;
+}
+.title h1{
+    color: #fff;
+    font-size: 35px;
+}
+.profile-image{
+    display: flex;
+}
+.profile-image img{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    filter: saturate(0);
+}
+.icons-about{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.icons-about i{
+    color: #fff;
+    font-size: 30px;   
+}
+.icons-about .bxl-linkedin-square:hover{
+    color: #abf129;
+}
+.icons-about .bxl-github:hover{
+    color:#abf129;
+}
+.presentation{
+    display: flex;
+    width: 90%;
+    padding-top: 20px;
+    gap: 150px;
+}
+.presentation1{
+    width: 100%;
+    height: auto;
+}
+.presentation2{
+    width: 100%;
+    height: auto;
+}
+.presentation p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.big-skills-section{
+    display: flex;
+}
+.skills-section{
+    padding-top: 60px;
+}
+.progress{
+    width: 600px;
+    
+}
+.progress-bar{
+    padding-left: 20px;
+}
+.progress-bars{
+    display: grid;
+    gap: 8px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.progress-bars h6{
+    color: #fff;
+    
+}
+.about-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-content: center;
+    color: #fff;
+    font-size: 100px;
+    margin: auto;
+    padding-top: 120px; 
+}
+.about-icons i:hover{
+    color: #abf129;
+}
+.projects-section{
+    padding-top: 50px;
+}
+.row{
+    padding-left: 20px;
+    gap: 30px;
+    padding-top: 20px;
+    height: auto;
+    width: 100%;
+}
+.card{
+    width: 25rem;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 50px;
+    transition: 0.2s all;
+}
+.card-body{
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 14px 14px 19px -4px rgba(171,241,41,0.05);
+    position: relative;
+}
+.card-title{
+    padding-top: 150px;
+    position: relative;
+    color: #fff;
+    background-color: transparent;
+    z-index: 1;
+}
+.card-text{
+    color: #fff;
+    font-weight: 300;
+    background-color: transparent;
+    z-index: 1;
+    position: relative;
+}
+.btn{
+    width: 100px;
+    border-radius: 20px;
+    border-color: #fff;
+    color: #fff;
+    z-index: 1;
+    font-weight: 300;
+    position: relative;
+}
+.btn:hover{
+    color: #abf129;
+    border-color: #abf129;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-body::after{
+    content:'';
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.contact-section{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.big-title{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 100px;
+}
+form{
+    width: 600px;
+    margin: auto;
+}
+.form-group{
+    padding-top: 20px;
+}
+.form-group input{
+    height: 40px;
+}
+.form-group label{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+.btn-form{
+    background-color: #abf129;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 50px; 
+}
+.btn-form:hover{
+    background-color: #659707;
+}
+.footer p{
+    padding-top: 50px;
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+
